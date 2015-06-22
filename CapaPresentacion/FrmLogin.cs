@@ -23,23 +23,27 @@ namespace CapaPresentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-        try
-            {
-            string c = (usuario.getContrasena(textBox1.Text).Trim());
-            if (c != null)
-                {
-                if (c.Equals(textBox2.Text))
-                    {
-                    FrmInicio frminicio = new FrmInicio();
-                    frminicio.Show();
-                    this.Hide();
-                    }
-                else { MessageBox.Show("Contrasena Incorrecta"); }
-                }
-            else { MessageBox.Show("Usuario No Existe"); }
 
-            }
-        catch (Exception ex) { MessageBox.Show(ex.ToString()); }
+            FrmInicio frminicio = new FrmInicio();
+                       frminicio.Show();
+                     this.Hide();
+        //try
+        //    {
+        //    string c = (usuario.getContrasena(textBox1.Text).Trim());
+        //    if (c != null)
+        //        {
+        //        if (c.Equals(textBox2.Text))
+        //            {
+        //            FrmInicio frminicio = new FrmInicio();
+        //            frminicio.Show();
+        //            this.Hide();
+        //            }
+        //        else { MessageBox.Show("Contrasena Incorrecta"); }
+        //        }
+        //    else { MessageBox.Show("Usuario No Existe"); }
+
+        //    }
+        //catch (Exception ex) { MessageBox.Show(ex.ToString()); }
         }//fin button1_Click
 
         private void textBox2_TextChanged(object sender, EventArgs e)

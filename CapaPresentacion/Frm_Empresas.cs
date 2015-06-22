@@ -27,5 +27,10 @@ namespace CapaPresentacion
             this.cmbPersona.ValueMember = "PK_id";
             this.cmbPersona.DisplayMember = "cedula";
         }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

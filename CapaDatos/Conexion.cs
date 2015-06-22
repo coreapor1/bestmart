@@ -11,8 +11,8 @@ namespace CapaDatos
     public class Conexion
     {
     // creo un string sqlconnection con la informacion para conectarse a la base de datos 
-        private string sqlConnection = "Data Source=LACOMPU; Initial Catalog=db_BestMart; Integrated Security=true";
-        public static string Cn = "Data Source=LACOMPU; Initial Catalog=db_BestMart; Integrated Security=true";
+        private string sqlConnection = "Data Source=JUAN;Initial Catalog=db_BestMart;User ID=sa;Password=123456";
+        public static string Cn = "Data Source=JUAN;Initial Catalog=db_BestMart;User ID=sa;Password=123456";
     
     // property to get access on the class 
     public string SQLConnection
