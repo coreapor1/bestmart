@@ -16,6 +16,7 @@ namespace CapaNegocio
         public Mostrar() 
             { 
             //constructor vacio
+            //Comentario Adicional solo de prueba para el Github
             }
 
         public DataTable Mostrar_Personas()
