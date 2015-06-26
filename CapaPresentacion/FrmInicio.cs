@@ -84,13 +84,13 @@ namespace CapaPresentacion
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
-            frm.Show();
+            Frm_Ventas frmVentas = new Frm_Ventas();
+            frmVentas.Show();
         }
 
         private void FrmInicio_FormClosed(object sender, FormClosedEventArgs e)
         {
-            
+
         }
     }
 }
