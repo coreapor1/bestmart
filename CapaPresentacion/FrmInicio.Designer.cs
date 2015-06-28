@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class FrmInicio
+    partial class Frm_Inicio
     {
         /// <summary>
         /// Required designer variable.
@@ -28,351 +28,235 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmInicio));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.otroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.otroToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.otroToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Inicio));
+            this.lbl_Catalogo = new System.Windows.Forms.Label();
+            this.lbl_Seguridad = new System.Windows.Forms.Label();
+            this.lbl_Y = new System.Windows.Forms.Label();
+            this.lbl_Mantenimiento = new System.Windows.Forms.Label();
+            this.lbl_Ventas = new System.Windows.Forms.Label();
+            this.lbl_Inventario = new System.Windows.Forms.Label();
+            this.lbl_Administrativo = new System.Windows.Forms.Label();
+            this.btn_Salir = new System.Windows.Forms.Button();
+            this.pbx_BestMarkk = new System.Windows.Forms.PictureBox();
+            this.btn_Administrativo = new System.Windows.Forms.Button();
+            this.btn_Inventario = new System.Windows.Forms.Button();
+            this.btn_Ventas = new System.Windows.Forms.Button();
+            this.btn_CatalogoMantenimiento = new System.Windows.Forms.Button();
+            this.btn_Seguridad = new System.Windows.Forms.Button();
+            this.lbl_Salir = new System.Windows.Forms.Label();
+            this.pbx_BestMark = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_BestMarkk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_BestMark)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // lbl_Catalogo
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registroToolStripMenuItem,
-            this.otroToolStripMenuItem,
-            this.otroToolStripMenuItem1,
-            this.otroToolStripMenuItem2,
-            this.ayudaToolStripMenuItem,
-            this.salirToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1281, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.lbl_Catalogo.AutoSize = true;
+            this.lbl_Catalogo.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Catalogo.Location = new System.Drawing.Point(608, 203);
+            this.lbl_Catalogo.Name = "lbl_Catalogo";
+            this.lbl_Catalogo.Size = new System.Drawing.Size(89, 23);
+            this.lbl_Catalogo.TabIndex = 15;
+            this.lbl_Catalogo.Text = "Catalogo";
             // 
-            // registroToolStripMenuItem
+            // lbl_Seguridad
             // 
-            this.registroToolStripMenuItem.Name = "registroToolStripMenuItem";
-            this.registroToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.registroToolStripMenuItem.Text = "Registro";
-            this.registroToolStripMenuItem.Click += new System.EventHandler(this.registroToolStripMenuItem_Click);
+            this.lbl_Seguridad.AutoSize = true;
+            this.lbl_Seguridad.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Seguridad.Location = new System.Drawing.Point(285, 203);
+            this.lbl_Seguridad.Name = "lbl_Seguridad";
+            this.lbl_Seguridad.Size = new System.Drawing.Size(100, 23);
+            this.lbl_Seguridad.TabIndex = 2;
+            this.lbl_Seguridad.Text = "Seguridad";
             // 
-            // otroToolStripMenuItem
+            // lbl_Y
             // 
-            this.otroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ejmToolStripMenuItem});
-            this.otroToolStripMenuItem.Name = "otroToolStripMenuItem";
-            this.otroToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.otroToolStripMenuItem.Text = "otro";
+            this.lbl_Y.AutoSize = true;
+            this.lbl_Y.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Y.Location = new System.Drawing.Point(642, 226);
+            this.lbl_Y.Name = "lbl_Y";
+            this.lbl_Y.Size = new System.Drawing.Size(22, 23);
+            this.lbl_Y.TabIndex = 24;
+            this.lbl_Y.Text = "Y";
             // 
-            // ejmToolStripMenuItem
+            // lbl_Mantenimiento
             // 
-            this.ejmToolStripMenuItem.Name = "ejmToolStripMenuItem";
-            this.ejmToolStripMenuItem.Size = new System.Drawing.Size(91, 22);
-            this.ejmToolStripMenuItem.Text = "ejm";
+            this.lbl_Mantenimiento.AutoSize = true;
+            this.lbl_Mantenimiento.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Mantenimiento.Location = new System.Drawing.Point(584, 249);
+            this.lbl_Mantenimiento.Name = "lbl_Mantenimiento";
+            this.lbl_Mantenimiento.Size = new System.Drawing.Size(142, 23);
+            this.lbl_Mantenimiento.TabIndex = 25;
+            this.lbl_Mantenimiento.Text = "Mantenimiento";
             // 
-            // otroToolStripMenuItem1
+            // lbl_Ventas
             // 
-            this.otroToolStripMenuItem1.Name = "otroToolStripMenuItem1";
-            this.otroToolStripMenuItem1.Size = new System.Drawing.Size(39, 20);
-            this.otroToolStripMenuItem1.Text = "otro";
+            this.lbl_Ventas.AutoSize = true;
+            this.lbl_Ventas.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Ventas.Location = new System.Drawing.Point(297, 494);
+            this.lbl_Ventas.Name = "lbl_Ventas";
+            this.lbl_Ventas.Size = new System.Drawing.Size(71, 23);
+            this.lbl_Ventas.TabIndex = 26;
+            this.lbl_Ventas.Text = "Ventas";
             // 
-            // otroToolStripMenuItem2
+            // lbl_Inventario
             // 
-            this.otroToolStripMenuItem2.Name = "otroToolStripMenuItem2";
-            this.otroToolStripMenuItem2.Size = new System.Drawing.Size(39, 20);
-            this.otroToolStripMenuItem2.Text = "otro";
+            this.lbl_Inventario.AutoSize = true;
+            this.lbl_Inventario.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Inventario.Location = new System.Drawing.Point(600, 494);
+            this.lbl_Inventario.Name = "lbl_Inventario";
+            this.lbl_Inventario.Size = new System.Drawing.Size(100, 23);
+            this.lbl_Inventario.TabIndex = 27;
+            this.lbl_Inventario.Text = "Inventario";
             // 
-            // ayudaToolStripMenuItem
+            // lbl_Administrativo
             // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.ayudaToolStripMenuItem.Text = "ayuda";
+            this.lbl_Administrativo.AutoSize = true;
+            this.lbl_Administrativo.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Administrativo.Location = new System.Drawing.Point(886, 203);
+            this.lbl_Administrativo.Name = "lbl_Administrativo";
+            this.lbl_Administrativo.Size = new System.Drawing.Size(138, 23);
+            this.lbl_Administrativo.TabIndex = 28;
+            this.lbl_Administrativo.Text = "Administrativo";
             // 
-            // salirToolStripMenuItem
+            // btn_Salir
             // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            this.btn_Salir.BackColor = System.Drawing.Color.White;
+            this.btn_Salir.BackgroundImage = global::CapaPresentacion.Properties.Resources.Log_Out;
+            this.btn_Salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Salir.Location = new System.Drawing.Point(890, 355);
+            this.btn_Salir.Name = "btn_Salir";
+            this.btn_Salir.Size = new System.Drawing.Size(129, 136);
+            this.btn_Salir.TabIndex = 29;
+            this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
-            // button1
+            // pbx_BestMarkk
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(313, 167);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 136);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pbx_BestMarkk.BackColor = System.Drawing.SystemColors.Control;
+            this.pbx_BestMarkk.BackgroundImage = global::CapaPresentacion.Properties.Resources.Sin_título2;
+            this.pbx_BestMarkk.Location = new System.Drawing.Point(1133, -1);
+            this.pbx_BestMarkk.Name = "pbx_BestMarkk";
+            this.pbx_BestMarkk.Size = new System.Drawing.Size(148, 623);
+            this.pbx_BestMarkk.TabIndex = 12;
+            this.pbx_BestMarkk.TabStop = false;
             // 
-            // label1
+            // btn_Administrativo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(357, 316);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Registro";
+            this.btn_Administrativo.BackColor = System.Drawing.Color.White;
+            this.btn_Administrativo.BackgroundImage = global::CapaPresentacion.Properties.Resources.Marketer;
+            this.btn_Administrativo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Administrativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Administrativo.Location = new System.Drawing.Point(890, 64);
+            this.btn_Administrativo.Name = "btn_Administrativo";
+            this.btn_Administrativo.Size = new System.Drawing.Size(129, 136);
+            this.btn_Administrativo.TabIndex = 6;
+            this.btn_Administrativo.UseVisualStyleBackColor = false;
+            this.btn_Administrativo.Click += new System.EventHandler(this.btn_Administrativo_Click);
             // 
-            // button2
+            // btn_Inventario
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(463, 167);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 136);
-            this.button2.TabIndex = 3;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_Inventario.BackColor = System.Drawing.Color.White;
+            this.btn_Inventario.BackgroundImage = global::CapaPresentacion.Properties.Resources.shopping_5_128;
+            this.btn_Inventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Inventario.Location = new System.Drawing.Point(589, 355);
+            this.btn_Inventario.Name = "btn_Inventario";
+            this.btn_Inventario.Size = new System.Drawing.Size(129, 136);
+            this.btn_Inventario.TabIndex = 5;
+            this.btn_Inventario.UseVisualStyleBackColor = false;
+            this.btn_Inventario.Click += new System.EventHandler(this.btn_Inventario_Click);
             // 
-            // button3
+            // btn_Ventas
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(617, 167);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 136);
-            this.button3.TabIndex = 4;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_Ventas.BackColor = System.Drawing.Color.White;
+            this.btn_Ventas.BackgroundImage = global::CapaPresentacion.Properties.Resources._1049___Shopping_Cart_II_128;
+            this.btn_Ventas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Ventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Ventas.Location = new System.Drawing.Point(274, 355);
+            this.btn_Ventas.Name = "btn_Ventas";
+            this.btn_Ventas.Size = new System.Drawing.Size(129, 136);
+            this.btn_Ventas.TabIndex = 4;
+            this.btn_Ventas.UseVisualStyleBackColor = false;
+            this.btn_Ventas.Click += new System.EventHandler(this.btn_Ventas_Click);
             // 
-            // button4
+            // btn_CatalogoMantenimiento
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(778, 167);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 136);
-            this.button4.TabIndex = 5;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btn_CatalogoMantenimiento.BackColor = System.Drawing.Color.White;
+            this.btn_CatalogoMantenimiento.BackgroundImage = global::CapaPresentacion.Properties.Resources.P_1_40_128;
+            this.btn_CatalogoMantenimiento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_CatalogoMantenimiento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_CatalogoMantenimiento.Location = new System.Drawing.Point(589, 64);
+            this.btn_CatalogoMantenimiento.Name = "btn_CatalogoMantenimiento";
+            this.btn_CatalogoMantenimiento.Size = new System.Drawing.Size(129, 136);
+            this.btn_CatalogoMantenimiento.TabIndex = 3;
+            this.btn_CatalogoMantenimiento.UseVisualStyleBackColor = false;
+            this.btn_CatalogoMantenimiento.Click += new System.EventHandler(this.btn_CatalogoMantenimiento_Click);
             // 
-            // button5
+            // btn_Seguridad
             // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(938, 167);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(129, 136);
-            this.button5.TabIndex = 6;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btn_Seguridad.BackColor = System.Drawing.Color.White;
+            this.btn_Seguridad.BackgroundImage = global::CapaPresentacion.Properties.Resources.MetroUI_Security_Approved;
+            this.btn_Seguridad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Seguridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Seguridad.Location = new System.Drawing.Point(274, 64);
+            this.btn_Seguridad.Name = "btn_Seguridad";
+            this.btn_Seguridad.Size = new System.Drawing.Size(129, 136);
+            this.btn_Seguridad.TabIndex = 1;
+            this.btn_Seguridad.UseVisualStyleBackColor = false;
+            this.btn_Seguridad.Click += new System.EventHandler(this.btn_Seguridad_Click);
             // 
-            // button6
+            // lbl_Salir
             // 
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(313, 388);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(129, 136);
-            this.button6.TabIndex = 7;
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.lbl_Salir.AutoSize = true;
+            this.lbl_Salir.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Salir.Location = new System.Drawing.Point(925, 494);
+            this.lbl_Salir.Name = "lbl_Salir";
+            this.lbl_Salir.Size = new System.Drawing.Size(50, 23);
+            this.lbl_Salir.TabIndex = 30;
+            this.lbl_Salir.Text = "Salir";
             // 
-            // button7
+            // pbx_BestMark
             // 
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(463, 388);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(129, 136);
-            this.button7.TabIndex = 8;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.pbx_BestMark.BackColor = System.Drawing.SystemColors.Control;
+            this.pbx_BestMark.BackgroundImage = global::CapaPresentacion.Properties.Resources.Sin_título2;
+            this.pbx_BestMark.Location = new System.Drawing.Point(-1, -1);
+            this.pbx_BestMark.Name = "pbx_BestMark";
+            this.pbx_BestMark.Size = new System.Drawing.Size(148, 623);
+            this.pbx_BestMark.TabIndex = 31;
+            this.pbx_BestMark.TabStop = false;
             // 
-            // button8
-            // 
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.Location = new System.Drawing.Point(617, 388);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(129, 136);
-            this.button8.TabIndex = 9;
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button9
-            // 
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.Location = new System.Drawing.Point(778, 388);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(129, 136);
-            this.button9.TabIndex = 10;
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button10
-            // 
-            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            this.button10.Location = new System.Drawing.Point(938, 388);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(129, 136);
-            this.button10.TabIndex = 11;
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1113, 243);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(168, 153);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(66, 243);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(168, 153);
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(460, 316);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 13);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Catalogos y mantenimientos";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(667, 316);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Otro";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(828, 316);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 13);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Otro";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(972, 316);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 13);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Administrativo";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(357, 541);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Ventas";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(828, 541);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(27, 13);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Otro";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(667, 541);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(27, 13);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Otro";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(512, 541);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(27, 13);
-            this.label9.TabIndex = 22;
-            this.label9.Text = "Otro";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(989, 541);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(27, 13);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "Salir";
-            // 
-            // FrmInicio
+            // Frm_Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1281, 618);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "FrmInicio";
-            this.Text = ".:.Inicio.:.";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmInicio_FormClosed);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.Controls.Add(this.pbx_BestMark);
+            this.Controls.Add(this.lbl_Salir);
+            this.Controls.Add(this.btn_Salir);
+            this.Controls.Add(this.lbl_Administrativo);
+            this.Controls.Add(this.lbl_Inventario);
+            this.Controls.Add(this.lbl_Ventas);
+            this.Controls.Add(this.lbl_Mantenimiento);
+            this.Controls.Add(this.lbl_Y);
+            this.Controls.Add(this.lbl_Catalogo);
+            this.Controls.Add(this.pbx_BestMarkk);
+            this.Controls.Add(this.btn_Administrativo);
+            this.Controls.Add(this.btn_Inventario);
+            this.Controls.Add(this.btn_Ventas);
+            this.Controls.Add(this.btn_CatalogoMantenimiento);
+            this.Controls.Add(this.lbl_Seguridad);
+            this.Controls.Add(this.btn_Seguridad);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Frm_Inicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Best Mark";
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_BestMarkk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_BestMark)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -380,35 +264,21 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ToolStripMenuItem registroToolStripMenuItem;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ToolStripMenuItem otroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ejmToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem otroToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem otroToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.Button btn_Seguridad;
+        private System.Windows.Forms.Button btn_Inventario;
+        private System.Windows.Forms.Button btn_Administrativo;
+        private System.Windows.Forms.PictureBox pbx_BestMarkk;
+        private System.Windows.Forms.Button btn_Ventas;
+        private System.Windows.Forms.Label lbl_Catalogo;
+        private System.Windows.Forms.Button btn_CatalogoMantenimiento;
+        private System.Windows.Forms.Label lbl_Seguridad;
+        private System.Windows.Forms.Label lbl_Y;
+        private System.Windows.Forms.Label lbl_Mantenimiento;
+        private System.Windows.Forms.Label lbl_Ventas;
+        private System.Windows.Forms.Label lbl_Inventario;
+        private System.Windows.Forms.Label lbl_Administrativo;
+        private System.Windows.Forms.Button btn_Salir;
+        private System.Windows.Forms.Label lbl_Salir;
+        private System.Windows.Forms.PictureBox pbx_BestMark;
     }
 }

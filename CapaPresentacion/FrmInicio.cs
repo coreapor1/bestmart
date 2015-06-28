@@ -10,87 +10,53 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class FrmInicio : Form
+    public partial class Frm_Inicio : Form
     {
-        public FrmInicio()
+        public Frm_Inicio()
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        
+        private void btn_Seguridad_Click(object sender, EventArgs e)
         {
-            FrmCategoria frmcategoria = new FrmCategoria();
-            frmcategoria.Show();
+
         }
 
-        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btn_CatalogoMantenimiento_Click(object sender, EventArgs e)
         {
-            FrmCategoria frmcategoria = new FrmCategoria();
-            frmcategoria.Show();
+            Frm_CatalogosMantenimiento frm_CatalogoMantenimiento = new Frm_CatalogosMantenimiento();
+            frm_CatalogoMantenimiento.Show();
+            this.Hide();
+        }
+        
+        private void btn_Administrativo_Click(object sender, EventArgs e)
+        {
+            Frm_Administrativo frm_Administrativo = new Frm_Administrativo();
+            frm_Administrativo.Show();
+            this.Hide();
+        }
+        
+        private void btn_Ventas_Click(object sender, EventArgs e)
+        {
+            Frm_Ventas frm_Ventas = new Frm_Ventas();
+            frm_Ventas.Show();
+            this.Hide();
+        }
+        
+        private void btn_Inventario_Click(object sender, EventArgs e)
+        {
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Frm_CatalogosMantenimiento frmP = new Frm_CatalogosMantenimiento();
-            frmP.Show();
-        }
-
-        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btn_Salir_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            //Form1 frm = new Form1();
-            //frm.Show();
-        }
+        
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            //Form1 frm = new Form1();
-            //frm.Show();
-        }
+        
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Frm_Administrativo FA = new Frm_Administrativo();
-            FA.Show();
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            
-            this.Close();
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            //Form1 frm = new Form1();
-            //frm.Show();
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            //Form1 frm = new Form1();
-            //frm.Show();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            //Form1 frm = new Form1();
-            //frm.Show();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Frm_Ventas frmVentas = new Frm_Ventas();
-            frmVentas.Show();
-        }
-
-        private void FrmInicio_FormClosed(object sender, FormClosedEventArgs e)
-        {
-
-        }
+        
     }
 }

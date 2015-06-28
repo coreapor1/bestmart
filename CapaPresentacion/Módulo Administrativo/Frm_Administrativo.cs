@@ -34,7 +34,7 @@ namespace CapaPresentacion
 
         private void Btn_inicio_Click(object sender, EventArgs e)
         {
-            FrmInicio frminicio = new FrmInicio();
+            Frm_Inicio frminicio = new Frm_Inicio();
             frminicio.Show();
             this.Close();
 

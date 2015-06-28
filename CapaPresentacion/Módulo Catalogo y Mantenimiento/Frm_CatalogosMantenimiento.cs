@@ -16,7 +16,14 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
-
+        
+        private void msrp_Inicio_Click(object sender, EventArgs e)
+        {
+            Frm_Inicio frm_inicio = new Frm_Inicio();
+            frm_inicio.Show();
+            this.Hide();
+        }
+       
         private void button1_Click(object sender, EventArgs e)
         {
             Frm_Personas frmP = new Frm_Personas();
@@ -46,5 +53,16 @@ namespace CapaPresentacion
             Frm_Estados_Colaborador frme = new Frm_Estados_Colaborador();
             frme.Show();
         }
+
+        private void msrp_Salir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        
+
+        
+
+        
     }
 }

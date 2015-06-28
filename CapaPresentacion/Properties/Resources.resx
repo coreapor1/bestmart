@@ -118,37 +118,73 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Apartados_Reportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apartados_Reportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DataSoft CR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataSoft CR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Apartados_Consultar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apartados_Consultar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Devoluciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Devoluciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Modulo Administrativo (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modulo Administrativo (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sin título2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sin título2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Modulo Catalogo y Mantenimiento (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modulo Catalogo y Mantenimiento (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Apartados" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apartados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Apartados_Crear" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apartados_Crear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mercadeo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mercadeo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Modulo Ventas (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Modulo Ventas (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Iniciar Sesion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iniciar Sesion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Facturacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Facturacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Iniciar Sesion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iniciar Sesion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Apartados_Crear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apartados_Crear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P-1-40-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P-1-40-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_send" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail_send.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mercadeo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mercadeo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modulo Ventas (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modulo Ventas (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apartados_Reportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apartados_Reportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modulo Ventas (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modulo Ventas (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sin título2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sin título2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1049_-_Shopping_Cart_II-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1049_-_Shopping_Cart_II-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MetroUI_Security_Approved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MetroUI_Security_Approved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modulo Inventario (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modulo Inventario (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataSoft CR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataSoft CR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apartados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apartados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Marketer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Marketer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping-5-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping-5-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Devoluciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Devoluciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modulo Seguridad (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modulo Seguridad (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Log Out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Log Out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

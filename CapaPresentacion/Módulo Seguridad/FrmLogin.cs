@@ -18,15 +18,15 @@ namespace CapaPresentacion
         public FrmLogin()
         {
             InitializeComponent();
-            textBox2.PasswordChar = '*';
+            txt_Contraseña.PasswordChar = '*';
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Entrar_Click(object sender, EventArgs e)
         {
 
-            FrmInicio frminicio = new FrmInicio();
-                       frminicio.Show();
-                     this.Hide();
+            Frm_Inicio frm_inicio = new Frm_Inicio();                 
+            frm_inicio.Show();                      
+            this.Hide();
         //try
         //    {
         //    string c = (usuario.getContrasena(textBox1.Text).Trim());
@@ -46,14 +46,11 @@ namespace CapaPresentacion
         //catch (Exception ex) { MessageBox.Show(ex.ToString()); }
         }//fin button1_Click
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void lklbl_RecuperarContraseña_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            CapaPresentacion.Módulo_Seguridad.Frm_RecuperacionContraseña frmRecuperarContraseña = new Módulo_Seguridad.Frm_RecuperacionContraseña();
+            frmRecuperarContraseña.Show();
         }
 
-        private void FrmLogin_Load(object sender, EventArgs e)
-            {
-
-            }
     }
 }

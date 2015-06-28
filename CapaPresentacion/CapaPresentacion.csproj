@@ -78,22 +78,22 @@
     <Compile Include="FrmInicio.Designer.cs">
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmLogin.cs">
+    <Compile Include="Módulo Seguridad\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmLogin.Designer.cs">
+    <Compile Include="Módulo Seguridad\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Administrativo.cs">
+    <Compile Include="Módulo Administrativo\Frm_Administrativo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Administrativo.Designer.cs">
+    <Compile Include="Módulo Administrativo\Frm_Administrativo.Designer.cs">
       <DependentUpon>Frm_Administrativo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_CatalogosMantenimiento.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_CatalogosMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_CatalogosMantenimiento.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_CatalogosMantenimiento.Designer.cs">
       <DependentUpon>Frm_CatalogosMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Colaboradores.cs">
@@ -190,6 +190,12 @@
     <Compile Include="Frm_Ventas_Mercadeo.Designer.cs">
       <DependentUpon>Frm_Ventas_Mercadeo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Módulo Seguridad\Frm_RecuperacionContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Módulo Seguridad\Frm_RecuperacionContraseña.Designer.cs">
+      <DependentUpon>Frm_RecuperacionContraseña.cs</DependentUpon>
+    </Compile>
     <Compile Include="Producto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,13 +234,13 @@
     <EmbeddedResource Include="FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmLogin.resx">
+    <EmbeddedResource Include="Módulo Seguridad\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Administrativo.resx">
+    <EmbeddedResource Include="Módulo Administrativo\Frm_Administrativo.resx">
       <DependentUpon>Frm_Administrativo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_CatalogosMantenimiento.resx">
+    <EmbeddedResource Include="Módulo Catalogo y Mantenimiento\Frm_CatalogosMantenimiento.resx">
       <DependentUpon>Frm_CatalogosMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Colaboradores.resx">
@@ -278,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Ventas_Mercadeo.resx">
       <DependentUpon>Frm_Ventas_Mercadeo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Módulo Seguridad\Frm_RecuperacionContraseña.resx">
+      <DependentUpon>Frm_RecuperacionContraseña.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Producto.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -337,6 +346,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Iniciar Sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail_send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo Catalogo y Mantenimiento %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo Seguridad %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo Ventas %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo Inventario %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo Administrativo %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MetroUI_Security_Approved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P-1-40-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marketer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-5-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1049_-_Shopping_Cart_II-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log Out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Módulo Ventas\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
