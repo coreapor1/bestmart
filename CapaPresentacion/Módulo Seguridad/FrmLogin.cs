@@ -17,8 +17,8 @@ namespace CapaPresentacion
 
         public FrmLogin()
         {
-            InitializeComponent();
-            txt_Contraseña.PasswordChar = '*';
+            //InitializeComponent();
+            //txt_Contraseña.PasswordChar = '*';
         }
 
         private void btn_Entrar_Click(object sender, EventArgs e)
@@ -48,8 +48,8 @@ namespace CapaPresentacion
 
         private void lklbl_RecuperarContraseña_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            CapaPresentacion.Módulo_Seguridad.Frm_RecuperacionContraseña frmRecuperarContraseña = new Módulo_Seguridad.Frm_RecuperacionContraseña();
-            frmRecuperarContraseña.Show();
+            //CapaPresentacion.Módulo_Seguridad.Frm_RecuperacionContraseña frmRecuperarContraseña = new Módulo_Seguridad.Frm_RecuperacionContraseña();
+            //frmRecuperarContraseña.Show();
         }
 
     }
