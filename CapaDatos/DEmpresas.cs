@@ -12,7 +12,7 @@ namespace CapaDatos
 {
     public class DEmpresas
     {
-        private string _Id;
+        
         private string _Persona;
         private string _RUC;
         private string _Nombre_Comercial;
@@ -21,13 +21,7 @@ namespace CapaDatos
         private string _TextoBuscar;
 
         
-        public string Id
-
-        {
-            get { return _Id; }
-            set { _Id = value; }
-        }
-
+      
         public string Persona
         {
             get { return _Persona; }

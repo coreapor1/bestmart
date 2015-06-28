@@ -56,6 +56,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.erroricono = new System.Windows.Forms.ErrorProvider(this.components);
             this.ttmensaje = new System.Windows.Forms.ToolTip(this.components);
+            this.lblPersonaID = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -97,6 +98,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblPersonaID);
             this.groupBox1.Controls.Add(this.cmbEstado);
             this.groupBox1.Controls.Add(this.cmbEmpleador);
             this.groupBox1.Controls.Add(this.cmbPersona);
@@ -123,6 +125,7 @@
             this.cmbEstado.Name = "cmbEstado";
             this.cmbEstado.Size = new System.Drawing.Size(257, 21);
             this.cmbEstado.TabIndex = 16;
+            this.cmbEstado.SelectedIndexChanged += new System.EventHandler(this.cmbEstado_SelectedIndexChanged);
             // 
             // cmbEmpleador
             // 
@@ -139,6 +142,7 @@
             this.cmbPersona.Name = "cmbPersona";
             this.cmbPersona.Size = new System.Drawing.Size(257, 21);
             this.cmbPersona.TabIndex = 14;
+            this.cmbPersona.SelectedIndexChanged += new System.EventHandler(this.cmbPersona_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -330,6 +334,15 @@
             // 
             this.ttmensaje.IsBalloon = true;
             // 
+            // lblPersonaID
+            // 
+            this.lblPersonaID.AutoSize = true;
+            this.lblPersonaID.Location = new System.Drawing.Point(500, 142);
+            this.lblPersonaID.Name = "lblPersonaID";
+            this.lblPersonaID.Size = new System.Drawing.Size(35, 13);
+            this.lblPersonaID.TabIndex = 17;
+            this.lblPersonaID.Text = "label7";
+            // 
             // Frm_Colaboradores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -382,6 +395,7 @@
         private System.Windows.Forms.ComboBox cmbPersona;
         private System.Windows.Forms.ComboBox cmbEstado;
         private System.Windows.Forms.ComboBox cmbEmpleador;
+        private System.Windows.Forms.Label lblPersonaID;
 
     }
 }

@@ -44,7 +44,7 @@ namespace CapaNegocio
         public static string Eliminar(string Id)
         {
             DEmpresas Obj = new DEmpresas();
-            Obj.Id = Id;
+            
 
             return Obj.Eliminar(Obj);
         }

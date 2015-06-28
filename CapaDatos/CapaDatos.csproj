@@ -61,6 +61,7 @@
     <Compile Include="DCategoria.cs" />
     <Compile Include="DColaboradores.cs" />
     <Compile Include="DEmpresas.cs" />
+    <Compile Include="DEstados_Colaborador.cs" />
     <Compile Include="DModulos.cs" />
     <Compile Include="DPersonas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

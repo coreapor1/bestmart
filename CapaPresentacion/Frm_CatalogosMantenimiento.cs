@@ -34,5 +34,17 @@ namespace CapaPresentacion
             Frm_Empresas frme = new Frm_Empresas();
             frme.Show();
         }
+
+        private void btnEstadoColaboradores_Click(object sender, EventArgs e)
+        {
+            Frm_Estados_Colaborador frme = new Frm_Estados_Colaborador();
+            frme.Show();
+        }
+
+        private void btnEstado_Colaborador_Click(object sender, EventArgs e)
+        {
+            Frm_Estados_Colaborador frme = new Frm_Estados_Colaborador();
+            frme.Show();
+        }
     }
 }

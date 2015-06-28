@@ -122,6 +122,8 @@ namespace CapaPresentacion
             this.cmbPersona.Focus();
         }
 
+        
+
         private void btnguardar_Click(object sender, EventArgs e)
         {
             try
@@ -137,7 +139,7 @@ namespace CapaPresentacion
                 {
                     if (this.IsNuevo)
                     {
-                        rpta = NColaboradores.Insertar(this.cmbPersona.Text.Trim().ToUpper(),
+                        rpta = NColaboradores.Insertar(this.cmbPersona.ValueMember.Trim().ToUpper(),
                             this.cmbEmpleador.Text.Trim(), this.cmbEstado.Text.Trim());
 
                     }
@@ -228,10 +230,10 @@ namespace CapaPresentacion
             this.cmbEmpleador.DisplayMember = "nombre_comercial";
 
             //Rellena los comboBox con los datos
-            //DataTable dsEmpresasEstados = NEstados.Mostrar();
-            //this.cmbEmpleador.DataSource = dsEmpresas.DefaultView;
-            //this.cmbEmpleador.ValueMember = "PK_id";
-            //this.cmbEmpleador.DisplayMember = "nombre_comercial";
+            DataTable dsEmpresasEstados = NEstado_Colaborador.Mostrar();
+            this.cmbEmpleador.DataSource = dsEmpresas.DefaultView;
+            this.cmbEmpleador.ValueMember = "PK_id";
+            this.cmbEmpleador.DisplayMember = "nombre_comercial";
 
         }
 
@@ -317,6 +319,16 @@ namespace CapaPresentacion
                 DataGridViewCheckBoxCell chkEliminar = (DataGridViewCheckBoxCell)dataListado.Rows[e.RowIndex].Cells["Eliminar"];
                 chkEliminar.Value = Convert.ToBoolean(chkEliminar.Value);
             }
+        }
+
+        private void cmbPersona_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbEstado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

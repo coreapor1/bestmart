@@ -60,6 +60,12 @@
     <Compile Include="Frm_Empresas.Designer.cs">
       <DependentUpon>Frm_Empresas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Estados_Colaborador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Estados_Colaborador.Designer.cs">
+      <DependentUpon>Frm_Estados_Colaborador.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -233,6 +239,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Empresas.resx">
       <DependentUpon>Frm_Empresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Estados_Colaborador.resx">
+      <DependentUpon>Frm_Estados_Colaborador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Personas.resx">
       <DependentUpon>Frm_Personas.cs</DependentUpon>

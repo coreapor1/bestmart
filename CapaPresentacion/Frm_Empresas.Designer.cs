@@ -42,9 +42,7 @@
             this.btneditar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnnuevo = new System.Windows.Forms.Button();
-            this.txtId = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataListado = new System.Windows.Forms.DataGridView();
             this.Eliminar = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,9 +94,7 @@
             this.groupBox1.Controls.Add(this.btneditar);
             this.groupBox1.Controls.Add(this.btnguardar);
             this.groupBox1.Controls.Add(this.btnnuevo);
-            this.groupBox1.Controls.Add(this.txtId);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Location = new System.Drawing.Point(22, 10);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(648, 346);
@@ -188,6 +184,7 @@
             this.btnguardar.TabIndex = 7;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
+            this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
             // 
             // btnnuevo
             // 
@@ -198,14 +195,6 @@
             this.btnnuevo.Text = "Nuevo";
             this.btnnuevo.UseVisualStyleBackColor = true;
             // 
-            // txtId
-            // 
-            this.txtId.Location = new System.Drawing.Point(236, 114);
-            this.txtId.Name = "txtId";
-            this.txtId.ReadOnly = true;
-            this.txtId.Size = new System.Drawing.Size(100, 20);
-            this.txtId.TabIndex = 3;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -214,15 +203,6 @@
             this.label5.Size = new System.Drawing.Size(46, 13);
             this.label5.TabIndex = 1;
             this.label5.Text = "Persona";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(116, 121);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(16, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Id";
             // 
             // tabPage2
             // 
@@ -256,6 +236,7 @@
             this.dataListado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataListado.Size = new System.Drawing.Size(635, 227);
             this.dataListado.TabIndex = 15;
+            this.dataListado.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataListado_CellContentClick);
             // 
             // Eliminar
             // 
@@ -365,9 +346,7 @@
         private System.Windows.Forms.Button btneditar;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btnnuevo;
-        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.DataGridView dataListado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Eliminar;

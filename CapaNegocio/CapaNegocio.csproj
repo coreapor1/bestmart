@@ -50,9 +50,11 @@
     <Compile Include="NCategoria.cs" />
     <Compile Include="NColaboradores.cs" />
     <Compile Include="NEmpresas.cs" />
+    <Compile Include="NEstado_Colaborador.cs" />
     <Compile Include="NPersonas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mostrar.cs" />
+    <Compile Include="prueba.cs" />
     <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>

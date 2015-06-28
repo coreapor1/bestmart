@@ -359,5 +359,10 @@ namespace CapaPresentacion
                 this.dataListado.Columns[0].Visible = false;
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
