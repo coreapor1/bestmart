@@ -48,28 +48,28 @@
       <DependentUpon>BDVentasDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
-    <Compile Include="Frm_Empresas.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Empresas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Empresas.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Empresas.Designer.cs">
       <DependentUpon>Frm_Empresas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Estados_Colaborador.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Estados_Colaborador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Estados_Colaborador.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Estados_Colaborador.Designer.cs">
       <DependentUpon>Frm_Estados_Colaborador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Inventario.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Inventario.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Inventario.Designer.cs">
       <DependentUpon>Frm_Inventario.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCategoria.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\FrmCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCategoria.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\FrmCategoria.Designer.cs">
       <DependentUpon>FrmCategoria.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmInicio.cs">
@@ -96,98 +96,92 @@
     <Compile Include="Módulo Catalogo y Mantenimiento\Frm_CatalogosMantenimiento.Designer.cs">
       <DependentUpon>Frm_CatalogosMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Colaboradores.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Colaboradores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Colaboradores.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Colaboradores.Designer.cs">
       <DependentUpon>Frm_Colaboradores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Comisiones.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_EntradaSalida.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Comisiones.Designer.cs">
-      <DependentUpon>Frm_Comisiones.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frm_EntradaSalida.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_EntradaSalida.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_EntradaSalida.Designer.cs">
       <DependentUpon>Frm_EntradaSalida.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Personas.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Personas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Personas.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Personas.Designer.cs">
       <DependentUpon>Frm_Personas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ReporteDescuentos.cs">
+    <Compile Include="Módulo Administrativo\Frm_ReporteDescuentos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_ReporteDescuentos.Designer.cs">
+    <Compile Include="Módulo Administrativo\Frm_ReporteDescuentos.Designer.cs">
       <DependentUpon>Frm_ReporteDescuentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ReporteDevoluciones.cs">
+    <Compile Include="Módulo Administrativo\Frm_ReporteDevoluciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_ReporteDevoluciones.Designer.cs">
+    <Compile Include="Módulo Administrativo\Frm_ReporteDevoluciones.Designer.cs">
       <DependentUpon>Frm_ReporteDevoluciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_ReporteEmpleados.cs" />
     <Compile Include="Frm_ReporteEmpleados.Designer.cs">
       <DependentUpon>Frm_ReporteEmpleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas_Devoluciones.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Devoluciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas_Devoluciones.Designer.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Devoluciones.Designer.cs">
       <DependentUpon>Frm_Ventas_Devoluciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas_Facturacion.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Facturacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas_Facturacion.Designer.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Facturacion.Designer.cs">
       <DependentUpon>Frm_Ventas_Facturacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas.Designer.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Frm_Ventas.Designer.cs">
       <DependentUpon>Frm_Ventas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas_Apartados.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Apartados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas_Apartados.Designer.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Apartados.Designer.cs">
       <DependentUpon>Frm_Ventas_Apartados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas_Apartados_Consultar.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Apartados_Consultar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas_Apartados_Consultar.Designer.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Apartados_Consultar.Designer.cs">
       <DependentUpon>Frm_Ventas_Apartados_Consultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas_Apartados_Crear.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Apartados_Crear.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas_Apartados_Crear.Designer.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Apartados_Crear.Designer.cs">
       <DependentUpon>Frm_Ventas_Apartados_Crear.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas_Apartados_Reportes.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Apartados_Reportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas_Apartados_Reportes.Designer.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Apartados_Reportes.Designer.cs">
       <DependentUpon>Frm_Ventas_Apartados_Reportes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas_Facturacion_ApertCierre.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Facturacion_ApertCierre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas_Facturacion_ApertCierre.Designer.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Facturacion_ApertCierre.Designer.cs">
       <DependentUpon>Frm_Ventas_Facturacion_ApertCierre.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ventas_Mercadeo.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Mercadeo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ventas_Mercadeo.Designer.cs">
+    <Compile Include="Módulo Ventas\Frm_Ventas_Mercadeo.Designer.cs">
       <DependentUpon>Frm_Ventas_Mercadeo.cs</DependentUpon>
     </Compile>
     <Compile Include="Módulo Seguridad\Frm_RecuperacionContraseña.cs">
@@ -196,7 +190,7 @@
     <Compile Include="Módulo Seguridad\Frm_RecuperacionContraseña.Designer.cs">
       <DependentUpon>Frm_RecuperacionContraseña.cs</DependentUpon>
     </Compile>
-    <Compile Include="Producto.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Producto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Producto.Designer.cs" />
@@ -211,7 +205,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Proveedor.cs">
+    <Compile Include="Módulo Catalogo y Mantenimiento\Proveedor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Proveedor.Designer.cs" />
@@ -228,7 +222,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FrmCategoria.resx">
+    <EmbeddedResource Include="Módulo Catalogo y Mantenimiento\FrmCategoria.resx">
       <DependentUpon>FrmCategoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInicio.resx">
@@ -243,46 +237,46 @@
     <EmbeddedResource Include="Módulo Catalogo y Mantenimiento\Frm_CatalogosMantenimiento.resx">
       <DependentUpon>Frm_CatalogosMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Colaboradores.resx">
+    <EmbeddedResource Include="Módulo Catalogo y Mantenimiento\Frm_Colaboradores.resx">
       <DependentUpon>Frm_Colaboradores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Empresas.resx">
+    <EmbeddedResource Include="Módulo Catalogo y Mantenimiento\Frm_Empresas.resx">
       <DependentUpon>Frm_Empresas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Estados_Colaborador.resx">
+    <EmbeddedResource Include="Módulo Catalogo y Mantenimiento\Frm_Estados_Colaborador.resx">
       <DependentUpon>Frm_Estados_Colaborador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Personas.resx">
+    <EmbeddedResource Include="Módulo Catalogo y Mantenimiento\Frm_Personas.resx">
       <DependentUpon>Frm_Personas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ReporteEmpleados.resx">
       <DependentUpon>Frm_ReporteEmpleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas.resx">
+    <EmbeddedResource Include="Módulo Catalogo y Mantenimiento\Frm_Ventas.resx">
       <DependentUpon>Frm_Ventas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas_Apartados.resx">
+    <EmbeddedResource Include="Módulo Ventas\Frm_Ventas_Apartados.resx">
       <DependentUpon>Frm_Ventas_Apartados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas_Apartados_Consultar.resx">
+    <EmbeddedResource Include="Módulo Ventas\Frm_Ventas_Apartados_Consultar.resx">
       <DependentUpon>Frm_Ventas_Apartados_Consultar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas_Apartados_Crear.resx">
+    <EmbeddedResource Include="Módulo Ventas\Frm_Ventas_Apartados_Crear.resx">
       <DependentUpon>Frm_Ventas_Apartados_Crear.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas_Apartados_Reportes.resx">
+    <EmbeddedResource Include="Módulo Ventas\Frm_Ventas_Apartados_Reportes.resx">
       <DependentUpon>Frm_Ventas_Apartados_Reportes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas_Devoluciones.resx">
+    <EmbeddedResource Include="Módulo Ventas\Frm_Ventas_Devoluciones.resx">
       <DependentUpon>Frm_Ventas_Devoluciones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas_Facturacion.resx">
+    <EmbeddedResource Include="Módulo Ventas\Frm_Ventas_Facturacion.resx">
       <DependentUpon>Frm_Ventas_Facturacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas_Facturacion_ApertCierre.resx">
+    <EmbeddedResource Include="Módulo Ventas\Frm_Ventas_Facturacion_ApertCierre.resx">
       <DependentUpon>Frm_Ventas_Facturacion_ApertCierre.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ventas_Mercadeo.resx">
+    <EmbeddedResource Include="Módulo Ventas\Frm_Ventas_Mercadeo.resx">
       <DependentUpon>Frm_Ventas_Mercadeo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Módulo Seguridad\Frm_RecuperacionContraseña.resx">
@@ -383,9 +377,7 @@
   <ItemGroup>
     <None Include="Resources\Log Out.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Módulo Ventas\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

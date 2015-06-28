@@ -200,7 +200,6 @@
             this.Btn_Comisiones.Size = new System.Drawing.Size(132, 134);
             this.Btn_Comisiones.TabIndex = 21;
             this.Btn_Comisiones.UseVisualStyleBackColor = true;
-            this.Btn_Comisiones.Click += new System.EventHandler(this.Btn_Comisiones_Click);
             // 
             // Frm_Administrativo
             // 

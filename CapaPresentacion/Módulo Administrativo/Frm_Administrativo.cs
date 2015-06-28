@@ -40,11 +40,7 @@ namespace CapaPresentacion
 
         }
 
-        private void Btn_Comisiones_Click(object sender, EventArgs e)
-        {
-            Frm_Comisiones frmcomisiones = new Frm_Comisiones();
-            frmcomisiones.Show();
-        }
+        
 
         private void Btn_EntradaSalida_Click(object sender, EventArgs e)
         {
